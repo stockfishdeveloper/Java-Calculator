@@ -395,7 +395,6 @@ class CalcPane implements ActionListener
 		else if(e.getActionCommand().equals("Equals"))
 		{
 			long result =  0L;
-			String result2 = "";
 			if(Operator.equals("+"))
 			{
 				result = (long)(First_Operand) + (long)(Second_Operand);
